@@ -1,12 +1,12 @@
 <?php
 	/**
-	 * Bootstrap 4 on Wordpress functions and definitions
+	 * Brotherhood Wordpress theme functions and definitions
 	 *
 	 * For more information on hooks, actions, and filters, see http://codex.wordpress.org/Plugin_API.
 	 *
 	 * @package 	WordPress
 	 * @subpackage 	Bootstrap 4.0.0
-	 * @autor 		Babobski
+	 * @autor 		tjh2822
 	 */
 	
 	
@@ -153,6 +153,8 @@
 	add_action('admin_menu', 'disable_default_dashboard_widgets');
 	
 	remove_action('welcome_panel', 'wp_welcome_panel');
+
+	
 	
 	/* ========================================================================================================================
 	
@@ -174,7 +176,7 @@
 	
 	// Change the title text 
 	function my_login_logo_url_title() {
-		return 'Bootstrap 4 on WordPress';
+		return 'Norhteast Region, Order of the Arrow Admin Portal ';
 	}
 	add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 	

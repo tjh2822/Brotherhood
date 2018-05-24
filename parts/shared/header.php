@@ -5,7 +5,7 @@
 		</button>
 
 		<div class="collapse navbar-collapse" id="primaryNav">
-			<a class="navbar-brand" href="/homepage"><img class="img-responsive" src="/wp-acontent/theme/images/navbar_icon.png" style="height:50px;"alt=""></a>
+			<a class="navbar-brand" href="/"><img class="img-responsive" src="/wp-content/themes/Brotherhood/images/navbar_icon.png" style="height:40px;"alt=""></a>
 			<?php
 			wp_nav_menu( array(
 				'menu'          	=> 'primary',
